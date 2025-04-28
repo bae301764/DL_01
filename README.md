@@ -20,7 +20,7 @@
 </p>
 
 3) 모델 학습
-- LeNet-5, LeNet_Advance, CustomMLP 다음과 같은 hyperparameter를 이용하여 학습진행
+- LeNet-5, LeNet_Advance, CustomMLP 세 가지 모델 모두 다음과 같은 hyperparameter를 이용하여 학습진행
 - LeNet_Advance의 경우 regularization을 추가하기 위해 weight_decay를 1e-3으로 설정  
 -- optimizer : SGD  
 -- learning rate : 0.01  

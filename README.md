@@ -9,6 +9,7 @@
 1) 데이터 전처리
 - code 폴더 내 dataset.py를 통해 이미지 전처리 진행
 - T.ToTensor()를 이용하여 0과 1 사이 값으로 scaling 후 T.Normalize를 이용하여 정규화
+- 파일명을 split하여 레이블 추출
 
 2) 모델 선언
 - code 폴더 내 model.py를 통해 LeNet-5와 CustomMLP가 선언됨

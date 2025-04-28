@@ -22,11 +22,11 @@
 3) 모델 학습
 - LeNet-5, LeNet_Advance, CustomMLP 다음과 같은 hyperparameter를 이용하여 학습진행
 - LeNet_Advance의 경우 regularization을 추가하기 위해 weight_decay를 1e-3으로 설정
--- optimizer : SGD
--- learning rate : 0.01
+-- optimizer : SGD  
+-- learning rate : 0.01  
 -- cost function : CrossEntropyLoss  
--- epoch : 30
--- batch size : 512
+-- epoch : 30  
+-- batch size : 512  
 
 4) 성능 비교
 - 아래 그래프와 같이 epoch에 따른 성능이 측정되었다.
